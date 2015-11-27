@@ -1,0 +1,169 @@
+/*navbar*/
+
+#fixed-navbar{
+	
+	position:fixed;
+	width:100%;
+	top:0;
+	height:50px;
+	background-color:#7986CB;
+	
+	
+	
+	
+}
+
+ul{
+	display:inline-block;
+	padding:0em;
+	float:right;
+	font-size:15px;
+}
+
+li{
+	
+	display:inline-block;
+	
+}
+
+.proname{
+	
+	width:90%;
+	max-width:1140px;
+	margin:0em auto;
+}
+
+
+
+#fixed-navbar>div>a{
+	
+	font-size:30px;
+	margin-top:10px;
+
+	
+}
+
+a{
+	
+	display:inline-block;
+}
+
+body {
+  font-size: 1.25em;
+  line-height: 1.6em;
+  margin: 0 auto;
+}
+
+
+h1 {
+  font-size: 4.25em
+(3)
+;
+  line-height: 1.129411764em;
+  margin-top: 0.75294118em
+(2)
+;
+  margin-bottom: 0.37647059em
+(1)
+;
+}
+
+
+h2 {
+  font-size: 2.6em
+(2)
+;
+  line-height: 1.23076923em;
+  margin-top: 1.23076923em
+(2)
+;
+  margin-bottom: 0.61538462em
+(1)
+;
+}
+
+
+h3 {
+  font-size: 1.6em
+(1)
+;
+  line-height: 1em;
+  margin-top: 1em
+(1)
+;
+  margin-bottom: 1em
+(1)
+;
+}
+
+
+
+h4 {
+  font-size: 1em
+(0)
+;
+  line-height: 1.6em;
+  margin-top: 1.6em
+(1)
+;
+  margin-bottom: 1.6em
+(1)
+;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.6em
+(1)
+;
+  margin-bottom: 1.6em
+(1)
+;
+}
+
+/* Sanitation */
+
+
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+b, strong, em, small, code {
+  line-height: 1;
+}
+
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+
+sub {
+  top: 0.4em;
+}
+
+li+li{
+	
+	margin-left:20px;
+}
+
+#fixed-navbar a{
+	
+	text-decoration:none;
+	color:white;
+}
+
+#fixed-navbar li>a.active{
+	
+	padding:1px;
+	background-color:grey;
+	
+}

@@ -1,0 +1,369 @@
+
+
+/*navbar*/
+
+#fixed-navbar{
+	
+	position:fixed;
+	width:100%;
+	top:0;
+	height:50px;
+	background-color:#7986CB;
+	z-index:100;
+	
+	
+	
+}
+
+ul{
+	display:inline-block;
+	padding:0em;
+	float:right;
+	font-size:15px;
+}
+
+li{
+	
+	display:inline-block;
+	
+}
+
+.proname{
+	
+	width:90%;
+	max-width:1140px;
+	margin:0em auto;
+}
+
+
+
+#fixed-navbar>div>a{
+	
+	font-size:30px;
+	margin-top:10px;
+
+	
+}
+
+a{
+	
+	display:inline-block;
+}
+
+body {
+  font-size: 1.25em;
+  line-height: 1.6em;
+  margin: 0px;
+  margin:0em;
+  font-family: sans-serif;
+
+}
+
+
+h1 {
+  font-size: 4.25em
+(3)
+;
+  line-height: 1.129411764em;
+  margin-top: 0.75294118em
+(2)
+;
+  margin-bottom: 0.37647059em
+(1)
+;
+}
+
+
+h2 {
+  font-size: 2.6em
+(2)
+;
+  line-height: 1.23076923em;
+  margin-top: 1.23076923em
+(2)
+;
+  margin-bottom: 0.61538462em
+(1)
+;
+}
+
+
+h3 {
+  font-size: 1.6em
+(1)
+;
+  line-height: 1em;
+  margin-top: 1em
+(1)
+;
+  margin-bottom: 1em
+(1)
+;
+}
+
+
+
+h4 {
+  font-size: 1em
+(0)
+;
+  line-height: 1.6em;
+  margin-top: 1.6em
+(1)
+;
+  margin-bottom: 1.6em
+(1)
+;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.6em
+(1)
+;
+  margin-bottom: 1.6em
+(1)
+;
+}
+
+/* Sanitation */
+
+
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+b, strong, em, small, code {
+  line-height: 1;
+}
+
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+
+sub {
+  top: 0.4em;
+}
+
+li+li{
+	
+	margin-left:20px;
+}
+
+#fixed-navbar a{
+	
+	text-decoration:none;
+	color:white;
+}
+
+#fixed-navbar li>a.active{
+	
+	padding:1px;
+	background-color:grey;
+	
+}
+
+
+/*slideshow*/
+
+
+#velocity-slider{
+	width:100%;
+	height:320px;
+}
+
+#velocity-slider div{
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 10;
+	max-width: 700px;
+	width:80%;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
+#velocity-slider div h1{
+	text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+	margin-top: 0em;
+}
+
+#velocity-slider div{
+	margin-top:8em;
+	
+}
+
+#velocity-slider a.button{
+	padding:0.6em 1em;
+	display: inline-block;
+	background-color: white;
+	color: #212121;
+	font-weight: 600;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
+
+#velocity-slider span{
+	display: block;
+	position: absolute;
+	width:100%;
+	height:320px;
+	top:0em;
+	z-index: 2;
+}
+
+#velocity-slider span.top{
+	z-index: 3;
+}
+
+#velocity-slider span+span{
+	  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	  filter: alpha(opacity=0);
+	  -moz-opacity: 0;
+	  -khtml-opacity: 0;
+	  opacity: 0;
+}
+
+#velocity-slider .img1{
+	background: url('../images/image1-768.jpg');
+	background-position:right center;
+}
+
+#velocity-slider .img2{
+	background: url('../images/image2-768.jpg');
+	background-position:center center;
+}
+
+#velocity-slider .img3{
+	background: url('../images/image3-768.jpg');
+	background-position:center center;
+}
+
+@media (min-width: 768px) {
+	#velocity-slider{
+		height:500px;
+	}
+	#velocity-slider span{
+		height:500px;
+	}
+	#velocity-slider .img1{
+		background: url('../images/image1-1370.jpg');
+		background-position:right center;
+	}
+
+	#velocity-slider .img2{
+		background: url('../images/image2-1370.jpg');
+		background-position:center center;
+	}
+
+	#velocity-slider .img3{
+		background: url('../images/image3-1370.jpg');
+		background-position:center center;
+	}
+}
+
+@media (min-width: 1370px) {
+	#velocity-slider{
+		height:700px;
+	}
+	#velocity-slider span{
+		height:700px;
+	}
+	#velocity-slider .img1{
+		background: url('../images/image1.jpg');
+		background-position:right center;
+	}
+
+	#velocity-slider .img2{
+		background: url('../images/image2.jpg');
+		background-position:center center;
+	}
+
+	#velocity-slider .img3{
+		background: url('../images/image3.jpg');
+		background-position:center center;
+	}
+}
+/*exit slideshow*/
+
+/*Articles*/
+
+
+.articles{
+	
+	background-color:#7986CB;
+	letter-spacing:normal;
+
+}
+
+.articles>h3{
+	padding-top:10px;
+}
+
+.articles+.articles{
+	margin-left:6.25%;
+}
+
+.articles>p, .articles>h3{
+	text-align:center;
+	color:white;
+}
+
+
+
+/*exit articles*/
+
+#footer{
+	
+	width:100%;
+	height:150px;
+	background-color:#7986CB;
+
+}
+
+.sn, .condet{
+	
+	display:inline-block;
+	
+}
+
+#condet>h4, #condet>p{
+	letter-spacing:normal;
+	color:white;
+	
+}
+
+.pure-g{
+	letter-spacing:-0.5em;
+}
+
+#socialnets, #condet{
+	display:inline-block
+}
+
+#socialnets{
+	float:left;
+	
+}
+
+#condet{
+	float:right;
+	
+}
+
